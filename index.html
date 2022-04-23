@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="normalize.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Akshar:wght@300;400;500&display=swap" rel="stylesheet">
+
+
+    <title>Restaurant</title>
+</head>
+<body>
+   
+    <header id="header">
+        <section class="top">
+            <div class="logo">
+                <img src="logo.png" alt="Page's logo" id="header-img">
+            </div>
+                <nav id="nav-bar">
+                    <ul>
+                        <li><a class="nav-link" href="#form">Email</a></li>
+                        <li><a class="nav-link" href="#about">About us </a></li>
+                        <li><a class="nav-link" href="#products">Price of the food</a></li>
+                    </ul>
+                </nav>
+        </section>
+        
+
+    </header>
+    <main>
+        <form action="#" id="form">
+            <h1 class="title" id="form">Enter your email for receive news about us </h1>
+            <input type="email" id="email" maxlength="100" name="email" placeholder="Enter your email here" required>
+            <br>
+            <input type="button" value="Get started" id="submit">
+        </form>
+        
+        <section id="about">
+            <figure class="about-img about-img_left" data-aos="fade-right" >
+                <img src="time.png" alt="Time" class="about_picture">
+            </figure>
+
+            <div class="about-text" data-aos="fade-left" >
+                <h2 class="about-subtitle">Time</h2>
+                <p class="about-text">We are fast Lorem ipsum dolordeseruntonsectetur adipisi repellat quaerat natus temporibus, commodi modi beatae culpa illo optio consectetur obcaecati quidem aut incidunt laborum animi deleniti odit esse. Reiciendis.</p>
+            </div>
+
+            <div class="about-text" data-aos="fade-right">
+                <h2 class="about-subtitle">Quality</h2>
+                <p class="about-text">We have a great quality LoremEligendi, fummodi fuga velit, ullam, veritatis voluptates voluptatum similique, exercitationem distinctio mollitia accusantium vero iure quae reiciendis quas nulla?</p>
+            </div>
+
+            <figure class="about-img" data-aos="fade-left">
+                <img src="quality .png" alt="quality" class="about_picture">
+            </figure>
+
+            <figure class="about-img about-img_right"  data-aos="fade-right">
+                <img src="eat.png" alt="eat" class="about_picture">
+            </figure>
+
+            <div class="about-text" data-aos="fade-left">
+                <h2 class="about-subtitle">Food</h2>
+                <p class="about-text">The is deliciu Lum, dolor sit amet consectetur adipisicing elit. Laudantium, quas. Perspiciatis eveniet neque dolor sapiente architecto maxime. Laboriosam est deleniti modi. Possimus molestiae nisi voluptatum impedit maxime quaerat cupiditate nesciunt!</p>
+            </div>
+        </section>
+
+        <section>
+            <div class="video" data-aos="fade-up" >
+                <iframe  width="560" height="315" src="https://www.youtube.com/embed/n8YwWZy3bcM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </section>
+
+        <section class="products-container" >
+            <div class="products" id="products" data-aos="fade-up" >
+                <div class="price"><h2>Fritada</h2></div>
+                <h2 class="about-subtitle">20$</h2>
+                <ol>
+                    <li>chifle</li>
+                    <li>Carne</li>
+                    <li>Pollo</li>
+                    <li>Cuero</li>
+                </ol>
+                <button class="btn">Select</button>
+            </div>
+            <div class="products" id="burger" data-aos="fade-up">
+                <div class="price"><h2>Burger</h2></div>
+                <h2 class="about-subtitle">25$</h2>
+                <ol>
+                    <li>Bread</li>
+                    <li>Meat</li>
+                    <li>Vegetables</li>
+                    <li>Vegetables</li>
+
+                </ol>
+                <button class="btn">Select</button>
+            </div>
+            <div class="products" id="salchipapa" data-aos="fade-up">
+                <div class="price"><h2>Papas</h2></div>
+                <h2 class="about-subtitle">25$</h2>
+                <ol>
+                    <li>Fries</li>
+                    <li>Sausage</li>
+                    <li>Vegetables</li>
+                    <li>Vegetables</li>
+                </ol>
+                <button class="btn">Select</button>
+            </div>
+
+        </section>
+    </main>
+
+    <footer class="footer">
+            <section class="footer__contact">
+                <h3 class="footer__title">My social network</h3>
+                <div class="footer__icons">
+                    <span class="footer__container_icons ">
+                        <a class="fab fa-instagram footer__icons" href="https://www.instagram.com/david_jaramillo1223/"></a>
+                    </span>
+
+                    <span class="footer__container_icons">
+                        <a class="fab fa-facebook footer__icons" href="https://www.facebook.com/david.jaramillointriago"></a>
+                    </span>
+                </div>
+            </section>
+        </div>
+    </footer>
+    <script src="https://kit.fontawesome.com/02d0ea0ba7.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+</body>
+</html>
