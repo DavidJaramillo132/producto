@@ -320,3 +320,58 @@ li{
     
 
 }
+
+@media screen and (max-width: 320px){
+    main{
+        
+        width: 100%;
+        height: auto;
+    }
+
+    iframe{
+        text-align: center;
+    }
+    #about, .products-container{
+        padding-left: 105%;
+    }
+
+    #form{
+        height: auto;
+        width: 500px;
+        padding-left: 15%;
+
+    }
+
+    #form h1{
+        margin-left: -4%;
+
+    }
+
+   #email{
+       margin-left: 18%;
+
+   }
+
+   #submit{
+       width: auto;
+       margin-left: 18%;
+    }
+
+   iframe{
+    margin-left: 25%;
+
+   }
+    #form h1{
+        font-size: 25px;
+        text-align: center;
+
+    }
+    footer{
+        width: 200%;
+    }
+
+    .top{
+        height: 100px;
+    }
+    
+}
